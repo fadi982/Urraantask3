@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urraan task 3</title>
+    
+
+<style>
+
+     html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+    .container {
+      display: flex;
+      height: 1400px;
+     
+      margin-top: 20px;
+      position: relative;
+      left: 1rem;
+    }
+
+    .left {
+      width: 50%;
+      background-color: darkred;
+      
+    }
+
+    .right {
+        
+      width: 50%;
+      background-color:darkred;
+    }
+    header img{
+        height: 130px;
+        margin-top: 30px;
+        position: relative;
+        left: 1rem;
+    }
+    .sub{
+
+        margin-top: 370px;
+    }
+    .sub h1{
+        font-family: Arial, Helvetica, sans-serif;
+            font-size: 90px;
+            font-weight: 700;
+            color: white;
+            position: relative;
+            right: -8rem;
+            margin-bottom: 20px;
+            
+    }
+    .sub p{
+         font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            position: relative;
+            right: -8.5rem;
+            
+    }
+    .sub h2{  
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 30px;
+            position: relative;
+            right: -8.5rem;
+            margin-top: 20px;
+            font-weight: 700;
+
+    }
+    .login {
+        position: absolute;
+        right: 127px;
+        margin-top: 100px;
+        height: 40px;
+        margin-bottom: 20px;
+        
+
+
+    }
+    input{
+        height: 60px;
+        width: 500px;
+        margin-bottom: 20px;
+        position: relative;
+        right: -0.1rem;
+        background-color: darkred;
+        border: 1px solid white;
+        
+    }
+    .awd h2{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 700;
+        position: relative;
+        right: -0.1rem;
+    }
+    .awd p{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 0;
+        font-size: 14px;
+        position: relative;
+        right: -0.1rem;
+        color: white;
+    }
+    
+    .best p{
+        position: absolute;
+        left:1.6rem;
+        margin-top: -24px;
+
+    }
+    #box{
+        height: 18px;
+        position: relative;
+        left: -15.1rem;
+        top: 0.9rem;
+
+    }
+    .text{
+        margin-top: 500px;
+        position: relative;
+        left: 7.3rem;
+       
+
+    }
+    .text textarea{
+         height: 80px;
+        width: 495px;
+        background-color: darkred;
+        border: 1px solid white;
+    }
+    #box2{
+          height: 18px;
+        position: relative;
+        left: -8rem;
+        top: 0.5rem;
+        margin-top: 10px;
+    }
+    .best2 p{
+          position: absolute;
+        right: 29.7rem;
+        margin-top: -30px;
+
+    }
+    .text2{
+         position: relative;
+        left: 7.3rem;
+
+    }
+    .text2 textarea{
+         height: 80px;
+        width: 495px;
+        background-color: darkred;
+        border: 1px solid white;
+
+    }
+     .best3 p{
+      position: absolute;
+        right: 28rem;
+        margin-top: -30px;
+           
+    }
+    #box3 {
+        height: 18px;
+        position: relative;
+        left: -7.9rem;
+        margin-top: 10px;
+        top: 0.5rem;
+    }
+    .text3{
+         position: relative;
+        left: 7.3rem;
+
+    }
+    .text3 textarea{
+         height: 80px;
+        width: 495px;
+        background-color: darkred;
+        border: 1px solid white;
+
+    }
+     .best4 p{
+        position: absolute;
+        right: 28rem;
+        margin-top: -30px;
+           
+    }
+    #box4 {
+        height: 18px;
+        position: relative;
+        left: -7.9rem;
+        top: 0.4rem;
+        margin-top: 10px;
+    }
+    .text4{
+         position: relative;
+        left: 7.3rem;
+
+    }
+    .text4 textarea{
+         height: 80px;
+        width: 495px;
+        background-color: darkred;
+        border: 1px solid white;
+        margin-top: 10px;
+
+    }
+      .best5 p{
+         position: absolute;
+        right: 28rem;
+        margin-top: -23px;
+           
+    }
+     #box5 {
+        height: 18px;
+        position: relative;
+        left: -7.9rem;
+        top: 0.9rem;
+        margin-top: 10px;
+    }
+      
+    .text5 {
+         position: relative;
+        left: 7.3rem;
+
+    }
+    .text5 textarea{
+         height: 80px;
+        width: 495px;
+        background-color: darkred;
+        border: 1px solid white;
+
+    }
+    button{
+        height: 60px;
+        width: 450px;
+        position: relative;
+        left: 7.4rem;
+        margin-top: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.8rem;
+    }
+    .plus-btn button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 15px;
+        width: 18px;
+        font-size: 10px;
+        position: relative;
+        left: 18.2rem;
+        bottom: 34px;
+
+
+
+    }
+       .plus-btn1 button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 15px;
+        width: 18px;
+        font-size: 10px;
+        position: relative;
+        left: 25.3rem;
+        bottom: 34px;
+
+
+
+    }
+     .plus-btn2 button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 15px;
+        width: 18px;
+        font-size: 10px;
+        position: relative;
+        left: 25.3rem;
+        bottom: 34px;
+
+
+
+    }
+     .plus-btn3 button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 15px;
+        width: 18px;
+        font-size: 10px;
+        position: relative;
+        left: 25.3rem;
+        bottom: 190px;
+
+
+
+    }
+     .plus-btn4 button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 15px;
+        width: 18px;
+        font-size: 10px;
+        position: relative;
+        left: 25.3rem;
+        bottom: 145px;
+
+
+
+    } 
+   
+
+   </style>
+  
+  
+
+</head>
+
+<body>
+  <header>
+    <img src="./src/logo.png" alt="">
+  </header>
+  <main class="container">
+    <section class="left">
+         <div class="sub">
+            <h1>Submission</h1>
+            <p>All details of submission will be kept strictly private and <br> confidential by Mailman and will not be used for any purpose <br> other than judging Red Card 2018 winners.</p>
+            <h2>Application will close on the <br> 15th December 2017</h2>
+        </div>
+      
+    </section>
+
+    <section class="right">
+          <div class="login">
+            <form action="">
+                <input type="text" placeholder=" Name"> <br>
+                <input type="email" placeholder=" Email"> <br>
+                <input type="text" placeholder=" Organization"> <br>
+                </form>
+                <div class="awd">
+                <h2>Which Award</h2>
+                <p>(Please tick and provide detail for all the award you would like to be nominated for) </p>
+                </div>
+                <div class="best">
+                <input id="box" type="checkbox"> <br>
+                <p>Best Livestream</p>
+                
+                
+                </div>
+                <div class="plus-btn"><button>&plus;</button></div>
+                
+                
+                    
+                
+                </div>
+                <div class="text">
+                    <textarea>Discription & result (max 150 Word)</textarea>
+                </div>
+                <div class="best2">
+                    <input id="box2" type="checkbox">
+                    
+                    <p>Best Tour Campaign</p>
+                </div>
+                </div>
+                <div class="plus-btn1"><button>&plus;</button></div>
+                
+                
+                    
+                
+                </div>
+                <div class="text2">
+                    <textarea>Discription & result (max 150 Word)</textarea>
+                </div>
+                <div class="best3">
+                    <input id="box3" type="checkbox">
+                    <p>Best Sponsor Activation</p>
+                </div>
+                <div class="plus-btn2"><button>&plus;</button></div>
+                
+                
+                    
+                
+                </div>
+
+                <div class="text3">
+                    <textarea>Discription & result (max 150 Word)</textarea>
+                </div>
+                <div class="best4">
+                    <input id="box4" type="checkbox">
+                    <p>Best Use of Technology</p>
+                </div>
+                 <div class="text4">
+                    <textarea>Discription & result (max 150 Word)</textarea>
+                </div>
+                <div class="best5">
+                    <input id="box5" type="checkbox">
+                    <p>Best Online Campagin</p>
+                </div>
+                <div class="plus-btn3"><button>&plus;</button></div>
+                
+                
+                    
+                
+                </div>
+                <div class="text5">
+                    <textarea>Discription & result (max 150 Word)</textarea>
+                </div>
+                <div class="plus-btn4"><button>&plus;</button></div>
+                </div>
+                <div class="btn">
+                    <button> &check; Submission Successful</button>
+                </div>
+    </section>
+
+  </main>
+
+</body>
+</html>
