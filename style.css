@@ -1,0 +1,177 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /* box-sizing: border-box; */
+    /* height: 100vh; */
+
+}
+html body{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+main{
+    background-color: rgb(124, 36, 36);
+    height: 1350px;
+    margin-left: 25px;
+    margin-top: 30px;
+     position: relative;
+     display: flex;
+        clip-path: polygon(0 0,100% 0 ,100% 90%, 87% 100%,0 100%);
+    
+
+}
+header img{
+    margin-left: 30px;
+}
+.text h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 5.2rem;
+    color: white;
+    margin-bottom: 10px;
+    font-weight: 850;
+}
+.text h4{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 1.7rem;
+    font-weight: 900;
+    letter-spacing: opx;
+
+}
+.text{
+   margin-left: 125px;
+   margin-top: 360px;
+}
+.text p{
+    font-size: 20px;
+        margin-bottom: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    position: relative;
+    left: 6.5rem;
+    top: 70px; */
+    margin-top: 100px;
+}
+.input{
+    width: 500px;
+    height: 60px;
+    margin: 10px;
+     color: white;
+      font-size: 0.9rem;
+      padding: 0.5rem;
+      background-color: rgb(124, 36, 36);
+      border: 2px solid white;
+    
+
+}
+textarea{
+    width: 500px;
+    height: 70px;
+    /* margin: 10px; */
+      background-color: rgb(124, 36, 36);
+      border: 2px solid white;
+      margin-left: 0%;
+      color: white;
+      font-size: 0.9rem;
+      padding: 0.5rem;
+    
+}
+#101{
+    height: -1rem;
+}
+.form h2{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+button{
+    width: 500px;
+    height: 50px;
+    /* margin-left: 25px; */
+    /* margin-top: 30px; */
+    /* font-size: 1rem; */
+}
+.left, .right{
+    width: 50%;
+
+}
+.main-box{
+    display: grid;
+    width: 550px;
+    min-height:100px ;
+    margin-top: 3px;
+    position: relative;
+}
+.top{
+display: grid;
+grid-template-columns: 1fr 1fr;
+justify-content: start;
+gap: 10px;
+padding-left: 0px;
+}
+.box1, .box2{
+    height: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    color: white;
+    /* border: 2px solid black; */
+
+}
+
+.bottom{
+      height: 75px;
+      padding: 15px;
+      /* border: 1px solid black; */
+}
+.box2 button{
+    /* margin-top: 9px;
+    padding-left: 0%; */
+    width: 19px;
+    height: 20px;
+    margin-top: 0px;
+    /* margin-top: 0px; */
+    /* padding-top: 0px; */
+}
+.main-box h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    font-weight: 900;
+    margin-left: 10px;
+}
+.main-box p{
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-size: 14px;
+    margin-left: 10px;
+    margin-top: 8px;
+    color: white;
+}
+.btn{
+    font-size: 2rem;
+    margin-left: 13px;
+    margin-top: 30px;
+    color: rgb(66, 61, 61);
+
+}
+.my-checkbox {
+    appearance: none;
+    width: 18px;
+    height: 18px;
+    background-color:  rgb(124, 36, 36);
+    border: 1px solid white;
+    border-radius: 1px;
+    cursor: pointer;
+}
+
+/* When checked */
+.my-checkbox:checked {
+    background-color: rgb(124, 36, 36);
+    border-color: white;
+}
+.my-checkbox:checked::after {
+    content: "✓";
+    color: white;
+    font-size: 15px;
+}
